@@ -1,0 +1,505 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+  
+  
+} 
+.wrapper{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    width: 1400px;
+    justify-content: space-between;
+}
+
+.nav-options1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: bold;
+    gap: 40px;
+    cursor: pointer;
+   
+}
+
+.nav-options2 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #fa7436;
+    gap: 40px;
+    cursor: pointer;
+    
+   
+}
+
+.button1 {
+    width: 130px;
+    height: 40px;
+    background-color: #fa7436; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.tree{
+    width: 100%;
+}
+
+
+.secondbody{
+     width: 100%; 
+     height: 800px;
+}
+.scondhead {
+    display: flex;
+    width: 100%;
+}
+
+.get {
+   
+    height: 260px;
+    width: 550px;
+    padding: 10px;
+    font-size: 62px;
+    font-weight: bold;
+    text-align: justify;
+
+}
+.team {
+    width: 550px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+}
+.team > p {
+   
+    width: 750px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+.buttonone {
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #fa7436;
+    border-radius: 5px;
+    color:#fa7436;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+.secondimg {
+ 
+    position: relative;
+    left: 80px;
+}
+.navbar-one {
+    
+    width: 800px;
+   
+   
+}
+.travel-container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    border: 2px solid black;
+    height: 10px;
+    position: relative;
+    left: 200px;
+     width: 100%;
+    top: 40px;
+}
+
+
+.Service-card{
+   
+    height: 250px;
+    width:  350px;
+    background-color: rgb(234, 231, 231) ;
+   
+    }
+
+ 
+.card-image-one { 
+    padding: 10px;
+    margin-left:100px;
+    height: 50px;
+    width: 120px;
+    color:red;
+    
+}
+.card-content-one{
+    padding: 20px;
+   
+}
+
+.card-content-one>p{
+  
+    padding: 5px;
+    margin-top: 10px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    background-color: rgb(234, 231, 231);
+}
+
+
+.card-content-two{
+  padding: 20px;
+}
+.card-content-two>p{
+   
+  padding: 5px;
+  margin-top: 10px;
+  height: 100px;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  
+  
+}
+
+.card-image-three{
+    margin-left: 100px;
+    height: 50px;
+    width: 120px;
+    color:orange;
+}
+.card-content-three{
+  padding: 5px;
+}
+.card-content-three>p{
+  padding: 5px;
+  margin-top: 10px;
+  
+  height: 100px;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  background-color: rgb(234, 231, 231);
+}
+.travel-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Servicesone{
+    width: 100%;
+    margin-top: 70px;
+    padding: 30px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;  
+}
+
+.service-tra {
+    /* width: 100%; */
+    position: relative;
+    bottom: 100px;
+}
+
+.Services-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 100px;
+    height: 400px;
+}
+.Service-head1 {
+   
+    justify-content: center;
+}
+.Service-head > h6{
+    text-align: center;  
+   
+}
+
+.flight{
+    height: 80px;
+    width: 100px;
+    position: relative;
+    left: 1000px;
+    bottom: 130px;
+}
+.Service-head{
+    
+    justify-content: center;
+}
+
+.service-tra{
+     
+      width: 1500px;
+      margin-top: 200px;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: space-evenly;
+ 
+} 
+.slider{
+      justify-content: center;
+      position: relative;
+      bottom: 180px;
+      
+    
+}
+
+.service-vac {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.Element {
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+}
+.slider2 {
+    position: relative;
+    bottom: 70px;
+}
+
+.mike {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 340px;
+}
+
+.taylor {
+    /* border: 1px solid black; */
+   
+    height: 100px;
+    width: 600px;
+}
+.taylor > h2{
+    font-size: 4rem;
+    width: 600px;
+}
+.Client-1 {
+    height: 200px;
+    width: 200px;
+}
+.Client-2 {
+    position: relative;
+    top: 100px;
+    right: 40px;
+}
+.Element-two {
+    position: relative;
+    top: 20px;
+    right: 70px;
+
+}
+
+.lastblog {
+    margin-left: 50px;
+}
+.latest{
+    width: 1500px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Slider-three {
+    margin-left: 70px;
+}
+.deals {
+    
+    width: 100%;
+    
+}
+.subscribe {
+    margin-left: 100px;
+    /* margin-top: 100px; */
+    height: 300px;
+    width: 1200px;
+    margin-top: 100px;
+    color: aliceblue;
+    border-radius: 10px;
+   
+}
+.subscribe > h2 {
+    position: relative;
+    top: 50px;
+  
+}
+ .subscribe >p {
+    margin-top: 100px;
+} 
+ .searchbar [type="text"] {
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 25px; 
+    width: 800px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;  
+ } 
+
+ .subbutton {
+    width: 130px;
+    height: 40px;
+    background-color: #fa7436; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    right: 150px;
+    bottom: 6px;
+ }
+ .Element5 {
+    height: 100px;
+ }
+ .Element5 >img {
+    /* height: 15px; */
+    /* width:  400px; */
+    position: relative;
+    bottom: 290px;
+    right: 360px;
+ }
+ .Element6 > img {
+     position: relative;
+    bottom: 300px;
+     left: 500px;
+   
+ }
+ .final {
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 1300px;
+    /* border: 1px solid black; */
+ }
+ .first > p {
+    color: black;
+    font-size: 20px;
+    /* height: 100px; */
+    width: 300px;
+ }
+ .second {
+    color: black;
+    font-size: 20px;
+    width: 300px;
+ }
+ .third {
+    color: black;
+    font-size: 20px;
+    width: 300px;
+ }
+ .fourth {
+    color: black;
+    font-size: 20px;
+    width: 300px;
+ }
+ .end {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+
+ }
+@media screen and (max-width: 1032px) { 
+   
+}
+@media screen and (max-width: 860px) {
+    
+}
+ 
+
+@media screen and (max-width: 688px) {
+    /* .secondbody{
+        width: 100%; 
+        height: 800px;
+   } */
+}
+@media screen and (max-width: 516px) {
+    
+}
+@media screen and (max-width: 368px) {
+    .navbar{
+        display: flex;
+         width: 1000px;
+           
+    }
+    .scondhead {
+        display: grid;
+        width: 100%;
+    }
+    .get {
+   
+        height: 80px;
+        width: 1000px;
+      }
+      .team {
+       margin-top: 200px;
+        height: 100px;
+        width: 1400px;
+      }
+    .travel-container {
+        display: flex;
+        height: 100px;
+        width: 600px;
+     }
+     
+     .Servicesone{
+       margin-top: 400px;
+       width: 800px;
+       
+   }
+   .Services-body{
+    width: 800px;
+    }
+
+    .service-vac {
+        width: 800px;
+       
+    }
+    
+    .mike {
+        display: grid;
+       height: 800px;
+       width: 1200px;
+    }
+}
+ 
